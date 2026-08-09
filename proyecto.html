@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paletify - Generador de Paletas de Colores</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <nav>
+    <h1>🎨 Paletify</h1>
+    <ul>
+      <li><a href="#proyecto">Proyecto</a></li>
+      <li><a href="#generador">Generador</a></li>
+      <li><a href="#paletas">Paletas</a></li>
+      <li><a href="#equipo">Equipo</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-content">
+    <h2>Generador de Paletas de Colores</h2>
+    <p>Desarrollado para ayudar a los estudiantes a crear combinaciones de colores armónicas para diseño gráfico y páginas web.</p>
+    <a href="#generador" class="btn">Generar Paleta</a>
+  </div>
+</header>
+
+<section id="proyecto" class="section">
+  <h2>Sobre el Proyecto</h2>
+  <p>
+    Paletify es una página web creada para facilitar la selección de combinaciones de colores adecuadas para proyectos académicos, páginas web y presentaciones.
+    El sistema genera automáticamente paletas de colores basadas en principios de armonía cromática.
+  </p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Problema</h3>
+      <p>Dificultad para elegir combinaciones de colores adecuadas en proyectos de diseño.</p>
+    </div>
+    <div class="card">
+      <h3>Objetivo</h3>
+      <p>Generar paletas de colores de forma rápida, sencilla y visualmente equilibrada.</p>
+    </div>
+    <div class="card">
+      <h3>Beneficio</h3>
+      <p>Mejorar la calidad visual de los trabajos y fortalecer el aprendizaje de la teoría del color.</p>
+    </div>
+  </div>
+</section>
+
+<section id="generador" class="section generador">
+  <h2>Generador de Paletas</h2>
+  <p>Selecciona un tipo de armonía cromática y genera una nueva paleta.</p>
+
+  <div class="controls">
+    <label for="paletteType">Tipo de paleta:</label>
+    <select id="paletteType">
+      <option value="monocromatica">Monocromática</option>
+      <option value="analoga">Análoga</option>
+      <option value="complementaria">Complementaria</option>
+      <option value="triadica">Triádica</option>
+    </select>
+  </div>
+
+  <div id="palette" class="palette"></div>
+
+  <button id="generate" class="btn">
+    Generar Nueva Paleta
+  </button>
+</section>
+
+
+<section id="paletas" class="section">
+  <h2>Tipos de Paletas</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Monocromática</h3>
+      <p>Utiliza diferentes tonos de un mismo color.</p>
+    </div>
+    <div class="card">
+      <h3>Análoga</h3>
+      <p>Combina colores vecinos dentro del círculo cromático.</p>
+    </div>
+    <div class="card">
+      <h3>Complementaria</h3>
+      <p>Emplea colores opuestos para crear alto contraste.</p>
+    </div>
+    <div class="card">
+      <h3>Triádica</h3>
+      <p>Usa tres colores equidistantes para un equilibrio visual.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section tecnologias">
+  <h2>Tecnologías Utilizadas</h2>
+  <div class="tech-grid">
+    <div class="tech">HTML5</div>
+    <div class="tech">CSS3</div>
+    <div class="tech">JavaScript</div>
+  </div>
+</section>
+
+<section id="equipo" class="section">
+  <h2>Equipo del Proyecto</h2>
+  <p><strong>Proyecto Expotécnica 2026</strong></p>
+  <p>Colegio Nacional Blanca Spinzi de Talavera</p>
+  <ul class="equipo">
+    <li>Fredy Bustos</li>
+    <li>Sofía Cardozo</li>
+    <li>Erika Espinola</li>
+    <li>Braian Ruiz Díaz</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Paletify © 2026 - Generador de Paletas de Colores</p>
+</footer>
+
+<link rel="stylesheet" href="pryecto1.css">
+
+<script src="proyecto2.js"></script>
+
+</body>
+</html>
